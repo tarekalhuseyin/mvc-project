@@ -1,0 +1,12 @@
+﻿@model EmoployeeViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1> Employee @Model.Name Details</h1>
+
+
+<partial name="PartialViews/DeleteDetailsPartialView" />
+<a asp-action="Edit" class="btn btn-secondary"> edit</a>|
+<a asp-action="Index" class="btn btn-light">Back to list </a>
+
